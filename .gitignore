@@ -1,6 +1,9 @@
 # provide path of the file
 # Example - conf/db.yaml
-/Users/machd/Documents/GitHub/weather-app/notes.md
+
+notes.md
+
+# ----------------
 # we can add multiple files in it
 # Example - conf/someotherfile.py
 
