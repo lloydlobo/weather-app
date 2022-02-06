@@ -23,11 +23,11 @@ body {
   font-family: "Open Sans", sans-serif;
   /* 19.2 -> from index.html -> source.unsplash.com
   19.3 -> add "background-image" url('https://....') */
-  /*  ====> ! **single** parenthesis?????????? -> prettier changes it to `"` while saving */
+  /* ! **single** parenthesis?????????? -> prettier changes it to `"` while saving */
   background-image: url("https://source.unsplash.com/1600x900/?nature,water");
   /* 27. make everything bigger - original font size is also 120% */
   font-size: 120%;
-  /* ! 28. Removing the margin around .temp in the ===> INSPECTOR
+  /* * 28. Removing the margin around .temp in the ===> INSPECTOR
     add to the bottom as they appear on the page*/
 }
 
@@ -47,25 +47,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* ! 22. Fir margins ==> GO To Inspector in Browser*/
+  /* * 22. Fir margins ==> GO To Inspector in Browser*/
   /* Need margin around inner elements */
-  /* ! 23. Search border radius is half of its height  */
+  /* * 23. Search border radius is half of its height  */
 }
 /* 24. :hover on search button (INSPECTOR)
  */
-/* ! 24.1 Create "+" New Style Rule for Button */
+/* * 24.1 Create "+" New Style Rule for Button */
 /* 24.2 -> Apply the :hov and select :hover in the inspector */
 /* 24.3 temporarily disable the [] hover toggle int the ":hov: menu and
  then move the mouse over the search button */
 
-/* ! 25. Clicked the inspector.stylesheet and copying here now */
+/* * 25. Clicked the inspector.stylesheet and copying here now */
 button {
   margin: 0.5em;
   border-radius: 50%;
   border: none;
   /* 29.2 Decreased the size to match the search input */
-  /* ! 29.3 Clicked on style.css-stylesheet in INSPECTOR and copying everything here */
-  /* ! 29.4 NOW TIME FOR API ==> script.js */
+  /* * 29.3 Clicked on style.css-stylesheet in INSPECTOR and copying everything here */
+
+  /*** 29.4 NOW TIME FOR API ==> script.js ******************************** */
+  /* * ************************************************************************************ */
   height: 44px;
   width: 44px;
   outline: none;
@@ -85,7 +87,7 @@ input.search-bar {
   color: white;
   font-family: inherit;
   font-size: 105%;
-  /* ! 25.1 calc used -> "- 80px is for space for the search button */
+  /* * 25.1 calc used -> "- 80px is for space for the search button */
   /* 26. Now going to -> index.html and adding a placeholder in -> search-bar */
   width: calc(100% - 80px);
 }
