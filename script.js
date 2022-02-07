@@ -1,16 +1,25 @@
-// 30. Create "OBJECT" for storing "functions and variable" necessary to enable the API
-
 let weather = {
   apiKey: "e0e09750f52faa72ead259c3bdf495f6",
-  fetchWeather: function () {
+  fetchWeather: function (city) {
     fetch(
-      "https://api.openweathermap.org/data/2.5/weather?q=Denver&appid=e0e09750f52faa72ead259c3bdf495f6"
+      "https://api.openweathermap.org/data/2.5/weather?q=" +
+        city +
+        "&units=metric&appid=" +
+        this.apiKey
     )
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      .then((data) => this.displayWeather(data));
+  },
+  displayWeather: function (data) {
+    const { name } = data;
+    const { icon, description } = data.weather[0];
+    const { temp, humidity } = data.main;
+    const { speed } = data.wind;
+    console.log(name, icon, description, temp, humidity, speed);
   },
 };
-// displayWeather: function (data) {},
+
+// * **********NOTES*********************
 
 // "https://api.openweathermap.org/data/2.5/forecast/daily?q=" +
 // { city name } & cnt={ cnt } & appid={ API key }"
@@ -18,6 +27,8 @@ let weather = {
 // city +
 // "&appid=" +
 // this.appKey
+
+// 30. Create "OBJECT" for storing "functions and variable" necessary to enable the API
 // 31.1 Need API key to access the weather
 // 31.2 Go to weatherapimap.org, create account, and
 // 31.3 Go to API keys and copy it here  under `apiKeys:`
