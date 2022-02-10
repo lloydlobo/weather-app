@@ -18,7 +18,9 @@ body {
   border-radius: 30px;
   width: 100%;
   max-width: 420px;
-  margin: 1em;
+  margin: 0em;
+  /* Neumorphism */
+  /* box-shadow: inset 35px 35px 70px #000000e0, inset -35px -35px 70px #000000b0; */
 }
 
 .search {
@@ -87,8 +89,105 @@ h1.temp {
   margin-left: 8px;
 }
 
-/* Waves */
-html,
+/* Magic Card */
+/* ---------- */
+/* ---------- */
+
+/* Shine */
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+/* :root {
+  --card-height: 105vh;
+  --card-width: calc(var(--card-height) / 1.5);
+} */
+
+.cardS {
+  /*   background: #fff; */
+  padding: 0.02em 0.02em;
+  position: relative;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 500px;
+  margin: 1em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /*   color: rgb(88 199 250 / 0%); */
+  z-index: 0;
+}
+
+.cardS:hover {
+  /*   color: rgb(88 199 250 / 100%); */
+  transition: color 0s;
+}
+.cardS:hover:before,
+.cardS:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+.cardS::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  /*   background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2
+  ); */
+  position: absolute;
+  z-index: -1;
+  animation: spin 2.5s linear infinite;
+}
+
+.cardS::after {
+  border-radius: 30px;
+  position: absolute;
+  content: "";
+  top: calc(var(--cardS-height) / 6);
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(1);
+  /*   filter: blur(calc(var(--cardS-height) / 2)); */
+  filter: blur(4px);
+
+  /* 1 corner animation */
+  background-image: linear-gradient(
+    var(--rotate),
+    #e91f58,
+    #bf52ad0d 5%,
+    #0000000d
+  );
+  /*   background: rgb(67,126,246); */
+  /* background: linear-gradient(90deg, rgba(67,126,246,1) 35%, rgba(149,76,244,1) 100%); */
+  opacity: 0.5;
+  /*   transition: opacity 0.2s cubic-bezier(.17,.67,.83,.67); */
+  transition: opacity 500ms cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  animation: spin 20000ms ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+/*    Waves   */
+/* ---------- */
+/* ---------- */
+
+/* html,
 body {
   height: 100%;
 }
@@ -101,12 +200,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .box {
   width: 100%;
   height: 5em;
-  /*   border-radius: 5px; */
   border-radius: 0.2em;
   box-shadow: 0 2px 30px rgba(black, 0.2);
   background: lighten(#f0f4c3, 10%);
