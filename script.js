@@ -30,10 +30,7 @@ const weather = {
     },
 };
 
-document.querySelector(".search button").addEventListener("click", function() {
-    weather.search();
-});
-
+//     weather.search();
 document
     .querySelector(".search-bar")
     .addEventListener("keyup", function(event) {
