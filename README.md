@@ -1,5 +1,5 @@
 ## Dynamic Web Weather App
-### A fully functional stunning [Weather App](https://app.lloydlobo.com/weather)&nbsp;[🌥️ ](https://app.lloydlobo.com/weather) made using a simple yet powerful API. 
+<strong> A fully functional stunning [Weather App](https://app.lloydlobo.com/weather)&nbsp;[🌥️ ](https://app.lloydlobo.com/weather) made using a simple yet powerful API.</strong></br>
 <sub>Experience **weather conditions** with **vibrant imagery** and travel **anywhere in the world!**</sub>
 <p align="center"><a alt="Web Weather App Image by Lloyd Lobo" href="https://app.lloydlobo.com/weather/" target="\_blank"><img align="center" src="https://github.com/lloydlobo/weather-app/blob/main/Timeline/Mockup-Weather-App-20220209133419.png" title="Dynamic Web Weather App" width="80%"></a></p>
 
