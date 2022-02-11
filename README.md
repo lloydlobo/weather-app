@@ -11,28 +11,30 @@
 </p>   
 
 ## Links To The Weather App: 🌩️
-Watch the **magic unfold** ✨ as the background images change to the location 🔍 you search. The experience makes you **feel** that **you are flying ✈️ over your favourite places!**
+Watch the **magic unfold** ✨ as the background images change to the location 🔍 you search.    
+The experience makes you **feel** that **you are flying ✈️ over your favourite places!**
 
-### [🔗](https://app.lloydlobo.com/weather) &nbsp;Check it out here 👉 https://app.lloydlobo.com/weather
-### [🔗](https://codepen.io/lloydlobo/pen/PoOpwJm) &nbsp;See the Pen "Web Weather App" on CodePen 👉 https://codepen.io/lloydlobo/pen/PoOpwJm
+#### [🔗](https://codepen.io/lloydlobo/pen/PoOpwJm) &nbsp;Edit it CodePen 👉 https://codepen.io/lloydlobo/pen/PoOpwJm
+#### [🔗](https://app.lloydlobo.com/weather) &nbsp;Check it out here 👉 https://app.lloydlobo.com/weather
 
 ## How It Works: 🔧
+
+### Programming Languages Used
+- Under the hood, the Weather App uses HTML, CSS, and JavaScript. 
+- Delivers real-time weather conditions with beautiful visuals.
+
 ### API
 <ul>
-  <li>API from the awesome <a target="_blank" href="https//openweathermap.org/">Open Weather Map</a>.</li>
+  <li>The API used to fetch weather details is from the awesome <a target="_blank" href="https//openweathermap.org/">Open Weather Map</a>.</li>
   <li>Check the Open Weather Map's <a target="_blank" href="https://openweathermap.org/api">API Docs</a> for more details.</li>
   <li><details><summary>I want to know more:</summary><ul><li>Using the API Call URL from Open Weather Map's <a target="_blank" href="https://openweathermap.org/current#name">Built-in API request by city name</a>.</li>
 </ul>
 
 </details>
 </ul>
-    
-### Programming Languages Used
-- Under the hood, it uses HTML, CSS, and JavaScript. 
-- Delivers real-time weather conditions with beautiful visuals.
 
 ## Credits: 👏
-- Project Guide: [Jonah Lawrence • Dev Pro Tips](https://www.youtube.com/watch?v=WZNG8UomjSI&t=275s). 👨‍🏫
+- Project Guide: The brilliant [Jonah Lawrence • Dev Pro Tips](https://www.youtube.com/watch?v=WZNG8UomjSI&t=275s). 👨‍🏫
 - Background images by the awesome [Unsplash](https://unsplash.com). 🖼️
 - Icons by [SVG Repo](https://svgrepo.com). ☮️
 
