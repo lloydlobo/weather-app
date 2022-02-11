@@ -1,13 +1,13 @@
 const weather = {
     apiKey: "e0e09750f52faa72ead259c3bdf495f6",
-    fetchWeather: function(city) {
+    fetchWeather(city) {
         fetch(
                 `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${this.apiKey}`
             )
             .then((response) => response.json())
             .then((data) => this.displayWeather(data));
     },
-    displayWeather: function(data) {
+    displayWeather(data) {
         const { name } = data;
         const { icon, description } = data.weather[0];
         const { temp, humidity } = data.main;
@@ -25,7 +25,7 @@ const weather = {
         document.body.style.backgroundImage =
             "url('https://source.unsplash.com/1600x900/?" + `${name}` + "')";
     },
-    search: function() {
+    search() {
         this.fetchWeather(document.querySelector(".search-bar").value);
     },
 };
