@@ -11,7 +11,7 @@ const weather = {
         const { name } = data;
         // const { icon, description } = data.weather[0];
         // With array-based destructuring — JS-0243 - deepsource
-        // let icon, description;
+        let icon, description;
         let weather = [0];
         [{ icon, description }] = data.weather;
         const { temp, humidity } = data.main;
