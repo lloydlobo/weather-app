@@ -9,11 +9,11 @@ const weather = {
     },
     displayWeather(data) {
         const { name } = data;
-        // const { icon, description } = data.weather[0];
+        const { icon, description } = data.weather[0];
         // With array-based destructuring — JS-0243 - deepsource
-        let icon, description;
-        let weather = [0];
-        [{ icon, description }] = data.weather;
+        // let icon, description;
+        // let weather = [0];
+        // [{ icon, description }] = data.weather;
         const { temp, humidity } = data.main;
         const { speed } = data.wind;
         // console.log(name, icon, description, temp, humidity, speed);
