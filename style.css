@@ -5,8 +5,8 @@ body {
   height: 100vh;
   margin: 0;
   background: #222;
-  font-family: "Inconsolata", monospace;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Bodoni Moda', serif;
+  font-family: 'Red Hat Display', sans-serif;
   background-image: url("https://source.unsplash.com/1600x900/?nature,water");
   font-size: 120%;
 }
@@ -21,7 +21,7 @@ body {
   margin: 0.2em;
   /* Neumorphism */
   /* box-shadow: inset 35px 35px 70px #000000e0, inset -35px -35px 70px #000000b0; */
-  box-shadow: inset 35px 35px 70px #00000070, inset -35px -35px 70px #00000070;
+  /* box-shadow: inset 35px 35px 70px #00000070, inset -35px -35px 70px #00000070; */
 }
 
 .search {
@@ -202,21 +202,42 @@ h1.temp {
   }
 }
 
+
+
 /*    Waves   */
 /* ---------- */
 /* ---------- */
 
+
+/* Waves rotated on the right */
 .box {
+    display: none;
+    max-height: 56px;
+    max-width: 446px;
+    bottom: 43%;
+    left: 42%;
+    /* transform: translate3d(0, 0, 0); */
+    transform: rotate(270deg);
+    overflow: hidden;
+    position: absolute;
+    opacity: 0.3;
+    width: 100%;
+    margin-top: 1.5em;
+    border-radius: 2.2em;
+    background: lighten(#f0f4c3, 10%);
+}
+
+/* .box {
   width: 100%;
   height: 5em;
   border-radius: 0.2em;
-  box-shadow: 0 2px 30px rgba(black, 0.2);
   background: lighten(#f0f4c3, 10%);
+  box-shadow: 0 2px 30px rgba(black, 0.2);
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
   margin-top: 1.5em;
-}
+} */
 
 .wave {
   opacity: 0.4;
