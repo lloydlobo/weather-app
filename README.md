@@ -1,6 +1,6 @@
 ## Dynamic Web Weather App
 <strong> A fully functional stunning [Weather App](https://app.lloydlobo.com/weather)&nbsp;[🌥️ ](https://app.lloydlobo.com/weather) made using a simple yet powerful API.</strong></br>
-<sub>Experience <strong>weather conditions</strong> with <strong>vibrant imagery</strong> and travel <strong>anywhere in the world!</strong></sub>
+<sub>Experience <strong>weather conditions</strong> with <strong>vibrant imagery</strong> and travel <strong>anywhere in the world! 👇 </strong></sub>
 <p align="center"><a alt="Web Weather App Image by Lloyd Lobo" href="https://app.lloydlobo.com/weather/" target="\_blank"><img align="center" src="https://github.com/lloydlobo/weather-app/blob/main/Timeline/Mockup-Weather-App-20220209133419.png" title="Dynamic Web Weather App" height="75%" width="75%"></a></p>
 
 <p align="center"><sub>Web Mockup Vectors by <a target="_blank" href="https://www.vecteezy.com/free-vector/web-mockup">Vecteezy</a></sub></p>
@@ -12,10 +12,11 @@
 
 ## Links To The Weather App: 🌩️
 Watch the **magic unfold** ✨ as the background images change to the location 🔍 you search.    
-The experience makes you **feel** that **you are flying ✈️ over your favourite places!**
-
-#### [🔗](https://codepen.io/lloydlobo/pen/PoOpwJm) &nbsp;Edit it CodePen 👉 https://codepen.io/lloydlobo/pen/PoOpwJm
+The App experience makes you **feel** like **you are flying ✈️ over your favourite destinations!**
+#### [🔗](https://codepen.io/lloydlobo/pen/PoOpwJm) &nbsp;Edit it CodePen 👉 https://codepen.io/lloydlobo/pen/NWwgxBp
 #### [🔗](https://app.lloydlobo.com/weather) &nbsp;Check it out here 👉 https://app.lloydlobo.com/weather
+
+</br>
 
 ## How It Works: 🔧
 
@@ -33,10 +34,13 @@ The experience makes you **feel** that **you are flying ✈️ over your favouri
 </details>
 </ul>
 
+</br>
+
 ## Credits: 👏
 - Project Guide: The brilliant [Jonah Lawrence • Dev Pro Tips](https://www.youtube.com/watch?v=WZNG8UomjSI&t=275s). 👨‍🏫
 - Background images by the awesome [Unsplash](https://unsplash.com). 🖼️
 - Icons by [SVG Repo](https://svgrepo.com). ☮️
+</br>
 
 ---
 
