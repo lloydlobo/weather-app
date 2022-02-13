@@ -19,7 +19,7 @@ Watch the **magic unfold** ✨ as the background images change to the location �
 
 </br>
 
-## How It Works: 🔧
+## How It Works 🔧
 
 ### Programming Languages Used
 - Under the hood, the Weather App uses HTML, CSS, and JavaScript. 
@@ -37,11 +37,15 @@ Watch the **magic unfold** ✨ as the background images change to the location �
 
 </br>
 
-## Credits: 👏
+## Credits 👏
 - Project Guide: The brilliant [Jonah Lawrence • Dev Pro Tips](https://www.youtube.com/watch?v=WZNG8UomjSI&t=275s). 👨‍🏫
 - Background images by the awesome [Unsplash](https://unsplash.com). 🖼️
 - Icons by [SVG Repo](https://svgrepo.com). ☮️
 </br>
+
+## About me 👨‍💻
+
+![Metrics](/github-metrics.svg)
 
 ---
 
