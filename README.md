@@ -1,8 +1,9 @@
 ## Dynamic Web Weather App
+
 <p>
   <strong> A fully functional stunning <a target="_blank" href="https://app.lloydlobo.com/weather">Weather App</a>&nbsp;<a target="_blank" href="https://app.lloydlobo.com/weather">⛅️</a> made using a simple yet powerful API.</strong></br>
   <sub>📌 &nbsp;Experience <strong>weather conditions</strong> with <strong>vibrant imagery</strong> and travel <strong>anywhere in the world! 👇 </strong></sub>
-  <a alt="Web Weather App Image by Lloyd Lobo" href="https://app.lloydlobo.com/weather/" target="\_blank"><img align="left" src="https://github.com/lloydlobo/weather-app/blob/main/Timeline/Mockup-Weather-App-20220209133419.png" title="Dynamic Web Weather App" ></a>
+  <a alt="Web Weather App Image by Lloyd Lobo" href="https://app.lloydlobo.com/weather/" target="\_blank"><img align="left" src="https://github.com/lloydlobo/weather-app/blob/main/assets/Timeline/Mockup-Weather-App-20220209133419.png" title="Dynamic Web Weather App" ></a>
 </p>
 <p align="center">
   <sub>Web Mockup Vectors by <a target="_blank" href="https://www.vecteezy.com/free-vector/web-mockup">Vecteezy</a></sub></br></br>
@@ -42,9 +43,7 @@ Watch the **magic unfold** ✨ as the background images change to the location �
 - Background images by the awesome [Unsplash](https://unsplash.com). 🖼️
 - Icons by [SVG Repo](https://svgrepo.com). ☮️
 </br>
-
----
-
+<hr>
 <p>
   <sub>🤫 &nbsp;Psst! Have any <a target="_blank" href="https://github.com/lloydlobo/weather-app/issues">💡 </a> ideas or suggestions? Feel free to make one or two <a target="_blank" href="https://github.com/lloydlobo/weather-app/issues">👉 here.</a></sub>
 </p>
