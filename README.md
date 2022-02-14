@@ -43,10 +43,6 @@ Watch the **magic unfold** ✨ as the background images change to the location �
 - Icons by [SVG Repo](https://svgrepo.com). ☮️
 </br>
 
-## About me 👨‍💻
-
-![Metrics](/github-metrics.svg)
-
 ---
 
 <p>
