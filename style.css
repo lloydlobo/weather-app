@@ -190,7 +190,7 @@ h1.temp {
   );
   opacity: 1;
   animation: spin 20000ms ease-in-out infinite;
-  overflow: hidden;
+  overfloow: hidden;
 }
 
 @keyframes spin {
