@@ -230,3 +230,4 @@ styles/
 *.swp
 *.vi
 *~
+.github/pull_request_template.md
