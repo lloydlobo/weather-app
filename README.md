@@ -36,8 +36,6 @@ Watch the **magic unfold** ✨ as the background images change to the location �
 </details>
 </ul>
 
-</br>
-
 ```mermaid
 sequenceDiagram
     autonumber
@@ -48,7 +46,6 @@ sequenceDiagram
     JavaScript->>User: Display Weather Conditions
     Unsplash->>User: Send City's Image
 ```
-
 ## Credits &nbsp;👏
 - Project Guide: The brilliant [Jonah Lawrence • Dev Pro Tips](https://www.youtube.com/watch?v=WZNG8UomjSI&t=275s). &nbsp;👨‍🏫
 - Background images by the awesome [Unsplash](https://unsplash.com). &nbsp;🖼️
