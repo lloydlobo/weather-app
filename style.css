@@ -87,7 +87,7 @@ button:hover {
 
 button:active {
   background: #fa8607;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 button:visited {
@@ -137,7 +137,7 @@ h1.temp {
 }
 
 .cardS {
-  padding: 0.002em 0.002em;
+  padding: 0.002em;
   position: relative;
   border-radius: 30px;
   width: 100%;
@@ -403,7 +403,7 @@ input.search-bar.stage::after {
 }
 
 @keyframes floating {
-    0% { transform: translate(0,  0px); }
+    0% { transform: translate(0,  0); }
     50%  { transform: translate(0, 3px); }
-    100%   { transform: translate(0, -0px); }
+    100%   { transform: translate(0, -0); }
 }
