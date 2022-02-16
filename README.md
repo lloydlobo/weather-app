@@ -32,12 +32,7 @@ Watch the **magic unfold** ✨ as the background images change to the location �
   <li><details><summary>“I want to know more!”</summary><ul><li>Using the API Call URL from Open Weather Map's <a target="_blank" href="https://openweathermap.org/current#name">Built-in API request by city name</a>.</li>
     <li>Take a look at the project's <a target="_blank" href="https://github.com/lloydlobo/weather-app/wiki">Wiki</a> to see how it was built.</li>
 </ul>
-
-</details>
-</ul>
-
-</br>
-
+    
 ```mermaid
 sequenceDiagram
     autonumber
@@ -49,6 +44,10 @@ sequenceDiagram
     Unsplash->>script.js: Send City's Image Data
     script.js->>User: Display City's Image
 ```
+
+</details>
+</ul>
+
 ## Credits &nbsp;👏
 - Project Guide: The brilliant [Jonah Lawrence • Dev Pro Tips](https://www.youtube.com/watch?v=WZNG8UomjSI&t=275s). &nbsp;👨‍🏫
 - Background images by the awesome [Unsplash](https://unsplash.com). &nbsp;🖼️
@@ -59,4 +58,16 @@ sequenceDiagram
   <sub>🤫 &nbsp;Psst! Have any <a target="_blank" href="https://github.com/lloydlobo/weather-app/issues">💡 </a> ideas or suggestions? Feel free to make one or two <a target="_blank" href="https://github.com/lloydlobo/weather-app/issues">👉 here.</a></sub>
   <br>
   <sub>📕 &nbsp; Learn more about building the Weather App in this project's <a target="_blank" href="https://github.com/lloydlobo/weather-app/wiki">Wiki</a>.
-</p>
+</p> 
+  
+```mermaid
+sequenceDiagram
+    autonumber
+    User->>script.js: Type ${city name}
+    script.js->>Open Weather Map: Fetch Weather Via API
+    Open Weather Map->>script.js: API Call Returns
+    script.js->>User: Display Weather Conditions
+    script.js->>Unsplash: Send ${city name}
+    Unsplash->>script.js: Send City's Image Data
+    script.js->>User: Display City's Image
+```
