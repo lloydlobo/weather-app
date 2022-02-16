@@ -1,4 +1,4 @@
-## Dynamic Web Weather App
+# Dynamic Web Weather App
 
 <p>
   <strong> A fully functional stunning <a target="_blank" href="https://app.lloydlobo.com/weather">Weather App</a>&nbsp;<a target="_blank" href="https://app.lloydlobo.com/weather">⛅️</a> made using a simple yet powerful API.</strong></br>
@@ -43,10 +43,6 @@ Watch the **magic unfold** ✨ as the background images change to the location �
 - Background images by the awesome [Unsplash](https://unsplash.com). 🖼️
 - Icons by [SVG Repo](https://svgrepo.com). ☮️
 </br>
-
-## About me 👨‍💻
-
-![Metrics](/github-metrics.svg)
 <hr>
 <p>
   <sub>🤫 &nbsp;Psst! Have any <a target="_blank" href="https://github.com/lloydlobo/weather-app/issues">💡 </a> ideas or suggestions? Feel free to make one or two <a target="_blank" href="https://github.com/lloydlobo/weather-app/issues">👉 here.</a></sub>
