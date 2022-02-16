@@ -41,14 +41,14 @@ Watch the **magic unfold** ✨ as the background images change to the location �
 ```mermaid
 sequenceDiagram
     autonumber
-    User->>JavaScript: Type city name
-    JavaScript->>OWM-API: Fetch Weather
-    JavaScript->>Unsplash: Send ${city name}
-    OWM-API->>JavaScript: API Call return
-    JavaScript->>User: Display Weather Conditions
-    Unsplash->>User: Send City's Image
+    User->>script.js: Type ${city name}
+    script.js->>Open Weather Map: Fetch Weather Via API
+    Open Weather Map->>script.js: API Call Returns
+    script.js->>User: Display Weather Conditions
+    script.js->>Unsplash: Send ${city name}
+    Unsplash->>script.js: Send City's Image Data
+    script.js->>User: Display City's Image
 ```
-
 ## Credits &nbsp;👏
 - Project Guide: The brilliant [Jonah Lawrence • Dev Pro Tips](https://www.youtube.com/watch?v=WZNG8UomjSI&t=275s). &nbsp;👨‍🏫
 - Background images by the awesome [Unsplash](https://unsplash.com). &nbsp;🖼️
