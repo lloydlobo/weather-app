@@ -47,6 +47,7 @@ sequenceDiagram
 
 </details>
 </ul>
+
 ## Recent Activity
 
 ![Recent Activity](https://images.repography.com/23914078/lloydlobo/weather-app/recent-activity/615ff6b23361d7ff813d28e046357f48.svg)
